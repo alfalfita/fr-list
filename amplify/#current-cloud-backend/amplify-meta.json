@@ -1,0 +1,37 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-frlist-dev-163832-authRole",
+      "UnauthRoleArn": "arn:aws:iam::031842254778:role/amplify-frlist-dev-163832-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::031842254778:role/amplify-frlist-dev-163832-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-frlist-dev-163832-deployment",
+      "UnauthRoleName": "amplify-frlist-dev-163832-unauthRole",
+      "StackName": "amplify-frlist-dev-163832",
+      "StackId": "arn:aws:cloudformation:us-east-1:031842254778:stack/amplify-frlist-dev-163832/39a13ca0-cf43-11ed-93c5-0e2b04098249",
+      "AmplifyAppId": "d1vi8rprutp661"
+    }
+  },
+  "hosting": {
+    "S3AndCloudFront": {
+      "service": "S3AndCloudFront",
+      "providerPlugin": "awscloudformation",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-frlist-dev-163832-deployment/amplify-cfn-templates/hosting/template.json",
+        "logicalId": "hostingS3AndCloudFront"
+      },
+      "lastPushTimeStamp": "2023-03-30T21:56:04.340Z",
+      "output": {
+        "CloudFrontSecureURL": "https://dprh0b9yt35j9.cloudfront.net",
+        "S3BucketSecureURL": "https://frlist-20230330164418-hostingbucket-dev.s3.amazonaws.com",
+        "CloudFrontOriginAccessIdentity": "E1EFFVR9JSSNET",
+        "WebsiteURL": "http://frlist-20230330164418-hostingbucket-dev.s3-website-us-east-1.amazonaws.com",
+        "CloudFrontDistributionID": "E1GA44AATEFOMS",
+        "Region": "us-east-1",
+        "HostingBucketName": "frlist-20230330164418-hostingbucket-dev",
+        "CloudFrontDomainName": "dprh0b9yt35j9.cloudfront.net"
+      },
+      "lastPushDirHash": "oD2DIbtXJ2q2EM35p4mFhBvTo/g="
+    }
+  }
+}
